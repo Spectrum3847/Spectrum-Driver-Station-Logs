@@ -1,0 +1,3 @@
+qual 34: https://www.youtube.com/watch?v=pJq97hKndVc&t=1s&ab_channel=texasRobots
+qual 39: https://www.youtube.com/watch?v=3jwQjDCyxyE&ab_channel=texasRobots
+elim 1: https://www.youtube.com/watch?v=unmZo5zcADk&t=2s&ab_channel=texasRobots

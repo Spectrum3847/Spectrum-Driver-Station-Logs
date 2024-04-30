@@ -1,0 +1,9 @@
+1. Open advantagescope 2024
+2. File --> Import Layout --> /AdvantageScope Logs/assets/layout
+3. Select Log file for corresponding match from /AdvantageScope Logs/raw logs
+3. Copy Match Footage URL to clipboard from /AdvantageScope Logs/assets/Match Footage.txt
+4. Match Footage tab --> red clipboard --> wait for synch (automatic is really good on its own)
+5. Playback match using 3D Field on monitor 1, Match Footage on monitor 2, Vision/Front and Vision/Rear open in sidebar as match goes on
+<6>. Help --> Show Assets Folder --> copy Robot_UltraViolet from /AdvantageScope Logs/assets/robot model
+<7>. Select UltraViolet from Robot selector in Config (bottom right) (refresh if not there)
+<8>. Use UltraViolet or Duck [easy to see] as Robot

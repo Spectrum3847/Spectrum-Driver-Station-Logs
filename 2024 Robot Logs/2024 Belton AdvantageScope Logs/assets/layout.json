@@ -1,0 +1,204 @@
+{
+  "hubs": [
+    {
+      "x": -8,
+      "y": -8,
+      "width": 1936,
+      "height": 1056,
+      "state": {
+        "sidebar": {
+          "width": 300,
+          "expanded": [
+            "/RealOutputs",
+            "/RealOutputs/Vision",
+            "/RealOutputs/Vision/Front",
+            "/RealOutputs/Vision/Rear",
+            "/RealOutputs/Odometry",
+            "/RealOutputs/Vision/Trust"
+          ]
+        },
+        "tabs": {
+          "selected": 1,
+          "tabs": [
+            {
+              "type": 0,
+              "path": "../docs/INDEX.md"
+            },
+            {
+              "type": 6,
+              "uuid": "rv928abm3ul8nyu9q10w6e4usmxx8dx2",
+              "fields": [],
+              "listFields": [
+                [],
+                [
+                  {
+                    "type": "Robot",
+                    "key": "/RealOutputs/Odometry/Robot",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose2d"
+                  },
+                  {
+                    "type": "Blue Ghost",
+                    "key": "/RealOutputs/Vision/Front/Pose",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose2d"
+                  },
+                  {
+                    "type": "Green Ghost",
+                    "key": "/RealOutputs/Vision/Rear/Pose",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose2d"
+                  }
+                ]
+              ],
+              "options": {
+                "field": "2024 Field",
+                "alliance": "blue",
+                "robot": "Duck Bot",
+                "unitDistance": "meters",
+                "unitRotation": "radians"
+              },
+              "configHidden": false,
+              "visualizer": {
+                "cameraIndex": -1,
+                "orbitFov": 50,
+                "cameraPosition": [
+                  -8.908546645981232,
+                  3.566726233630682,
+                  -4.9478270999668625
+                ],
+                "cameraTarget": [
+                  -1.8427741215460185,
+                  -0.5398886933225322,
+                  1.17920188127264
+                ]
+              },
+              "title": "3D Field"
+            },
+            {
+              "type": 5,
+              "uuid": "xyores772jv9fd2uj6atgtrx8qsstla1",
+              "fields": [],
+              "listFields": [
+                [
+                  {
+                    "type": "Ghost",
+                    "key": "/RealOutputs/Vision/Front/Pose",
+                    "sourceTypeIndex": 1,
+                    "sourceType": "Pose2d"
+                  }
+                ]
+              ],
+              "options": {
+                "game": "2024 Field",
+                "unitDistance": "meters",
+                "unitRotation": "radians",
+                "origin": "right",
+                "size": 0.75,
+                "allianceBumpers": "auto",
+                "allianceOrigin": "blue",
+                "orientation": "blue left, red right"
+              },
+              "configHidden": false,
+              "visualizer": null,
+              "title": "Pose"
+            },
+            {
+              "type": 7,
+              "uuid": "w2snl1ww34kuzh6nycbwrhx8n7pi81ky",
+              "fields": [],
+              "listFields": [],
+              "options": {},
+              "configHidden": false,
+              "visualizer": null,
+              "title": "Match Footage - seperate monitor"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.3,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                },
+                "discrete": {
+                  "fields": [
+                    {
+                      "key": "/RealOutputs/Vision/integratingPose",
+                      "color": "#2b66a2",
+                      "show": true
+                    }
+                  ]
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                }
+              },
+              "title": "Front/Integrating? -- better to look at at sidebar"
+            },
+            {
+              "type": 3,
+              "field": "/RealOutputs/Vision/Front/LogStatus",
+              "title": "Front/Log Info"
+            },
+            {
+              "type": 1,
+              "legendHeight": 0.3,
+              "legends": {
+                "left": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": [
+                    {
+                      "key": "/RealOutputs/Vision/Trust/STDX",
+                      "color": "#2b66a2",
+                      "show": true
+                    }
+                  ]
+                },
+                "discrete": {
+                  "fields": []
+                },
+                "right": {
+                  "lockedRange": null,
+                  "unitConversion": {
+                    "type": null,
+                    "factor": 1
+                  },
+                  "fields": []
+                }
+              },
+              "title": "STDs -- sidebar better than graph"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "satellites": [
+    {
+      "x": 1061,
+      "y": 530,
+      "width": 867,
+      "height": 518,
+      "state": {
+        "type": 7,
+        "visualizer": null
+      },
+      "uuid": "w2snl1ww34kuzh6nycbwrhx8n7pi81ky"
+    }
+  ],
+  "version": "3.2.0"
+}
