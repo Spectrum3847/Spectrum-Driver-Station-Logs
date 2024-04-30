@@ -41,4 +41,4 @@
 > Match logs end in **_p**/**_q**/**_e**<<f>**match number**>. Anything else is a log of the robot at home / practice field / in pit
 
 > [!IMPORTANT]
-> If you have any questions about what a specific field that we log is just ask!
+> If you have any questions about a specific field we log is just ask!
